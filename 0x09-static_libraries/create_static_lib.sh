@@ -1,3 +1,3 @@
 #!/bin/bash
-gcc -wall -pedantic -werror -wextra -c *.c
-ar rc liballa *.o
+gcc -Wall -pedantic -Werror -wextra -c *.c
+ar rc liball.a *.o
